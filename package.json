@@ -1,0 +1,25 @@
+{
+  "name": "chat-pkg",
+  "version": "1.0.0",
+  "description": "This is the Chatbot using open ai ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "author": "valopt",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
